@@ -1,0 +1,8 @@
+x = int(input())
+n = int(input())
+q = 1
+e = 1
+d = x
+r = 0
+w = 0
+

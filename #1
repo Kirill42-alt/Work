@@ -1,0 +1,8 @@
+k = int(input())
+n = int(input())
+
+if n > 0:
+  for n in range(0, n):
+    print(k)
+else:
+  print("Server error")

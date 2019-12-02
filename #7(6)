@@ -1,0 +1,15 @@
+a = int(input())
+b = int(input())
+if a > 0 and a < 6:
+    act = {
+        1: b / 10,
+        2: b * 1000,
+        3: b * 1,
+        4: b * 100,
+        5: b * 10
+    }
+    
+    print(act[a])
+    
+else:
+    print("Server error")

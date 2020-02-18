@@ -1,0 +1,31 @@
+from random import randint
+
+print("Курс доллара"); dolar = int(input())
+print("Курс евро"); evro = int(input())
+print("Товар из США в долларах на месяц:"); buy_usa = int(input())
+print("Товар из Кореи в долларах на месяц:"); buy_korea = int(input())
+print("Товар из Японии в долларах на месяц:"); buy_japan = int(input())
+print("Промежуток времени:"); year = int(input())
+print("Посещаемость людей в день от:"); ot = int(input())
+print("Посещаемость людей в день до:"); do = int(input())
+print("Налог в процентах:"); nalog = int(input())
+print("Средний чек одного клиента:"); check = int(input())
+print("Сотрудники в ресторане:"); res_u = int(input())
+print("Руководители в нем:"); res_a = int(input())
+
+usa = "США";
+korea = "Корея";
+japan = "Япония";
+
+mounth = {
+    1: 'Декабрь', 
+    2: 'Январь', 
+    3: 'Август', 
+    4: 'Сентябрь', 
+}
+
+first_buy_usa = buy_usa * dolar; five_buy_usa = first_buy_usa * year;
+first_buy_korea = buy_korea * dolar; five_buy_korea = first_buy_korea * year;
+first_buy_japan = buy_japan * dolar; five_buy_japan = first_buy_japan * year;
+
+people = randint(ot, do)
